@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:1200px) {
+    .form-1 {
+        width: 60% !important;
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+    .form-1 {
+        width: 50% !important;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .form-1 {
+        width: 70% !important;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:425px) {
+    .form-1 {
+        width: 100% !important;
+    }
+
+    .input-1 {
+        height: 50px !important;
+    }
+
+    .btn-warning {
+        height: 50px !important;
+        font-size: 20px !important;
+
+    }
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 60px;
+}
+
+.sighin-content {
+    background-image: url(./back_image-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-page {
+    background-image: url(./back-image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 80px;
+}
+
+.reg-content {
+    background-image: url(./back-image-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-1 {
+    width: 40%;
+
+}
+
+.input-1 {
+    height: 60px;
+    border-radius: 0px;
+    color: orange !important;
+    box-shadow: none !important;
+
+    opacity: .5;
+}
+
+.input-1::placeholder {
+    color: black;
+}
+
+.input-1:focus {
+    border: 2px solid orange !important;
+}
+
+label {
+    color: orange;
+}
+
+.Sign {
+    color: orange;
+    letter-spacing: 1px;
+}
+
+.btn-warning {
+    background-color: orange !important;
+    border-radius: 0px;
+    height: 60px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.span-1 {
+    color: orange;
+}
+
+.link-1:hover {
+    color: orange !important;
+    box-shadow: 0 0 50px orange !important;
+}
+
+.link-1 {
+    line-height: 12px;
+}
+
+.hello-page {
+    color: orange;
+    font-size: 60px;
+    animation: mymove 5s;
+}
+
+@keyframes mymove {
+    from {
+        font-size: 20px;
+        color: rgb(255, 94, 0);
+    }
+
+    to {
+        font-size: 60px;
+        color: orange;
+    }
+}
+
+.navbar-nav {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-collapse {
+    flex-grow: .1 !important;
+}
